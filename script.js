@@ -2,10 +2,14 @@
 const exchangeRates = {
     "USD": {
       "USD": 1,
+      "EUR": 0.93,
+      "SK": 9.35,
       // Add more "to" currencies and rates as needed
     },
     "EUR": {
       "USD": 1.07,
+      "EUR": 1,
+      "SK": 11.04,
       // Add more "to" currencies and rates as needed
     },
 
