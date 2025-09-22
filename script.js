@@ -10,6 +10,15 @@ const exchangeRates = {
     },
 
     // Add more "from" currencies as needed
+    "RUP": {
+      "USD": 0.000060,
+      // Add more "to" currencies and rates as needed
+    },
+    "USD": {
+      "RUP": 16583.00,
+      // Add more "to" currencies and rates as needed
+    }
+
   };
 
 
