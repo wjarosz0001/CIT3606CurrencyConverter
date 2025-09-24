@@ -2,14 +2,17 @@
 const exchangeRates = {
     "USD": {
       "USD": 1,
+      "KRW": 1392.27,
       // Add more "to" currencies and rates as needed
     },
     "EUR": {
       "USD": 1.07,
+      "KRW": 1639.69,
       // Add more "to" currencies and rates as needed
     },
 
     // Add more "from" currencies as needed
+
     "RUP": {
       "USD": 0.000060,
       // Add more "to" currencies and rates as needed
@@ -19,7 +22,15 @@ const exchangeRates = {
       // Add more "to" currencies and rates as needed
     }
 
+
+    "KRW": {
+      "USD": 0.00072,
+      "EUR": 0.00061,
+    
+    }
+
   };
+
 
 
   const convert = () => {
